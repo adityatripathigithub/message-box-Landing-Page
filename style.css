@@ -1,0 +1,669 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+
+
+.body{
+    width: 100%;
+    height: 100%;
+    background : linear-gradient(rgba(0, 0, 0, 0.8),rgba(72, 163, 188, 0.8))
+
+}
+
+.box{
+    width: 25%;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121011;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    rotate: -13deg;
+    border-radius: 10%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+.box h1{
+    color: gray;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+}
+
+
+.box i{
+    font-size: 170%;
+    color: gray;
+    position: absolute;
+    left: 83%;
+    top: 6%;
+    rotate: 90deg;
+}
+
+
+.box button{
+    width: 80%;
+    height: 8%;
+    color: gray;
+    background-color: rgb(35, 34, 34);
+    font-size: 100%;
+    position: absolute;
+    left: 12%;
+    top: 20%;
+    border-radius: 30px;
+    border: none;
+    padding-left: -40px;
+    padding-right: 50%;
+ 
+}
+
+
+.box h2{
+    
+    font-size: 70%;
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 33%;
+}
+
+
+.box2{
+    width: 2%;
+    height: 1.4%;
+    background-color: #01fe83;
+    position: absolute;
+    left: 44%;
+    top: 33.4%;
+    border-radius: 50%;
+
+}
+
+.box3 i{
+    position: absolute;
+    left: 80%;
+    top: 22%;
+    rotate: none;
+}
+
+
+
+
+.box4{
+    width: 13%;
+    height: 7%;   
+    background-color: #8919f8; 
+    position: absolute;
+    left: 7%;
+    top: 38%;
+    border-radius: 50%;
+    border: 4px solid rgb(182, 166, 166);
+}
+
+.box4 h1{
+    width: 50%;
+    height: 50%;
+    font-size: 120%;
+    color: white; 
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+
+.box5{
+    width: 13%;
+    height: 7%;   
+    background-color: rgb(0, 255, 55); 
+    background-image: url(https://images.unsplash.com/photo-1683130461764-af2bea342b45?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    border-radius: 50%;
+    border: 4px solid #8919f8;
+}
+
+
+.box6{
+    width: 13%;
+    height: 7%;   
+    background-color: rgb(0, 255, 55); 
+    background-image: url(https://media.istockphoto.com/id/1494743029/photo/latin-woman-enjoying-a-beautiful-day-trekking-in-the-mountains.webp?s=170667a&w=0&k=20&c=99GIPign3vl2aIXd2QCWICIzxXPz_zmkh3iEgvQh_gs=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 42%;
+    top: 38%;
+    border-radius: 50%;
+    border: 4px solid #8919f8;
+}
+
+
+
+.box7{
+    width: 13%;
+    height: 7%;   
+    background-color: rgb(0, 255, 55); 
+    background-image: url(https://images.unsplash.com/photo-1683130461600-7ce41d9c27cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 59%;
+    top: 38%;
+    border-radius: 50%;
+    border: 4px solid #8919f8;
+}
+
+
+
+
+.box8{
+    width: 13%;
+    height: 7%;   
+    background-color: rgb(0, 255, 55); 
+    background-image: url(https://images.unsplash.com/photo-1465409042654-5314e9d1754b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 76%;
+    top: 38%;
+    border-radius: 50%;
+    border: 4px solid #8919f8;
+}
+
+
+.box9{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+.box10{
+    width: 13%;
+    height: 14%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1352131673/photo/young-blond-woman-with-thermos-cup-resting-on-the-bench-in-mountains-freedom-food-travel-and.jpg?s=612x612&w=0&k=20&c=AFa_okD2qEmfkvMZw70O6Usrgy4kRv5TD7wHoQJ4npI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+.box10 h1{
+    position: absolute;
+    left: 60px;
+    top: 20%;
+    font-size: 100%;
+    color: black;
+}
+
+
+.box10 h2{
+    width: 100%;
+    position: absolute;
+    left: 56px;
+    top: 75%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+
+.box10 h3{
+    width: 100%;
+    position: absolute;
+    left: 300px;
+    top: 20%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+.box10 i{
+    position: absolute;
+    left: 330px;
+    top: 65%;
+    font-size: 120%;
+    rotate: 0deg;
+    font-weight: 900;
+}
+
+
+.box11{
+    width: 13%;
+    height: 14%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1061738720/photo/female-traveler-posing-in-icelandic-wilderness-looking-at-camera.jpg?s=612x612&w=0&k=20&c=LsFDNQ_ri5eU00Gf05CT6zThpeMPFKtWXTTu4Lskg78=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+
+.box11 h1{
+    position: absolute;
+    left: 60px;
+    top: 20%;
+    font-size: 100%;
+    color: black;
+}
+
+
+.box11 h2{
+    width: 100%;
+    position: absolute;
+    left: 56px;
+    top: 75%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+.box11 h3{
+    width: 100%;
+    position: absolute;
+    left: 300px;
+    top: 20%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+
+.box11 i{
+    position: absolute;
+    left: 330px;
+    top: 65%;
+    font-size: 120%;
+    rotate: 0deg;
+    font-weight: 900;
+}
+
+
+.box12{
+    width: 13%;
+    height: 14%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1307919717/photo/young-woman-taking-photos-in-the-nature.jpg?s=612x612&w=0&k=20&c=H5mCzUE4ondPygEDb4gv1Ear9dlyAGVcvxfbGd_Lcy0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+}
+
+
+.box12 h1{
+    position: absolute;
+    left: 60px;
+    top: 20%;
+    font-size: 100%;
+    color: black;
+}
+
+
+.box12 h2{
+    width: 100%;
+    position: absolute;
+    left: 56px;
+    top: 75%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+.box12 h3{
+    width: 100%;
+    position: absolute;
+    left: 300px;
+    top: 20%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+
+.box12 i{
+    position: absolute;
+    left: 330px;
+    top: 65%;
+    font-size: 120%;
+    rotate: 0deg;
+    font-weight: 900;
+}
+
+.box13{
+    width: 13%;
+    height: 14%;  
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1805686024/photo/45-year-old-female-hiker-is-looking-at-view-holding-travel-mug-and-stretching-in-the-morning.jpg?s=612x612&w=0&k=20&c=7sfvgyMnkH7F40G2peFzh71y0QXvkoSSYiiW1aleS24=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+
+.box13 h1{
+    position: absolute;
+    left: 60px;
+    top: 20%;
+    font-size: 100%;
+    color: black;
+}
+
+
+.box13 h2{
+    width: 100%;
+    position: absolute;
+    left: 56px;
+    top: 75%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+
+
+.box13 h3{
+    width: 100%;
+    position: absolute;
+    left: 300px;
+    top: 20%;
+    font-size: 45%;
+    font-weight: 900;
+    color: rgb(100, 99, 99);
+}
+
+.box13 i{
+    position: absolute;
+    left: 330px;
+    top: 65%;
+    font-size: 120%;
+    rotate: 0deg;
+    font-weight: 900;
+}
+
+
+
+.box1{
+    width: 25%;
+    height: 85%;
+    color: rgb(115, 110, 110);
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    rotate: 15deg;
+    border-radius: 10%;
+}
+
+
+.body2{
+    width: 100%;
+    height: 15%; 
+    background-color: rgb(35, 34, 34);
+    border-radius: 20px  20px 0 0;
+}
+
+.body2 i{
+    font-size: 200%;
+    position: absolute;
+    left: 67%;
+    top: 4%;
+}
+
+
+.body3 i{
+    font-size: 200%;
+    position: absolute;
+    left: 82%;
+}
+
+
+.body4{
+    width: 20%;
+    height: 11%;  
+    background-image: url(https://media.istockphoto.com/id/534331082/photo/tourist-in-bryce-canyon-national-park-usa.jpg?s=612x612&w=0&k=20&c=gj9JWu1FJlrmkOfROZhlKCmztSiNkggBgMky_BHj4Ak=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    border-radius: 50%;
+}
+
+.body4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    left: 110%;
+    top: 20%;
+    font-weight: 400;
+}
+
+
+.body4 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #01fe83;
+    position: absolute;
+    left: 120%;
+    top: 65%;
+    font-weight: 900;
+}
+
+
+.body4 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: rgb(102, 98, 98);
+    position: absolute;
+    left: 190%;
+    top: 150%;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.body5{
+    width: 2.5%;
+    height: 1.4%;
+    background-color: #01fe83;
+    position: absolute;
+    left: 26%;
+    top: 10.2%;
+    border-radius: 50%;
+}
+
+
+.body6{
+    width: 60%;
+    height: 60%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/534331082/photo/tourist-in-bryce-canyon-national-park-usa.jpg?s=612x612&w=0&k=20&c=gj9JWu1FJlrmkOfROZhlKCmztSiNkggBgMky_BHj4Ak=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 250%;
+    left: 20%;
+
+}
+
+
+
+.body7{
+    width: 60%;
+    height: 60%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/534331082/photo/tourist-in-bryce-canyon-national-park-usa.jpg?s=612x612&w=0&k=20&c=gj9JWu1FJlrmkOfROZhlKCmztSiNkggBgMky_BHj4Ak=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 430%;
+    left: 20%;
+
+}
+
+
+
+.body8{
+    width: 60%;
+    height: 60%; 
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/534331082/photo/tourist-in-bryce-canyon-national-park-usa.jpg?s=612x612&w=0&k=20&c=gj9JWu1FJlrmkOfROZhlKCmztSiNkggBgMky_BHj4Ak=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 630%;
+    left: 20%;
+
+}
+
+
+.body6 h1{
+    width: 200%;
+    height: 70%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 130%;
+    background-color: rgb(54, 52, 52);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+.body6 h2{
+    width: 200%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 460%;
+    top: 150%;
+    background-color: rgb(22, 160, 160);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+
+.body7 h1{
+    width: 300%;
+    height: 70%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 130%;
+    background-color: rgb(54, 52, 52);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+.body7 h2{
+    width: 270%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 460%;
+    top: 150%;
+    background-color: rgb(22, 160, 160);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+
+.body8 h1{
+    width: 350%;
+    height: 70%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 130%;
+    background-color: rgb(54, 52, 52);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+.body8 h2{
+    width: 250%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 460%;
+    top: 150%;
+    background-color: rgb(22, 160, 160);
+    padding-left: 40%;
+    padding-top: 6%;
+    border-radius: 8px;
+}
+
+
+.box1 button{
+    width: 80%;
+    height: 8%;
+    color: gray;
+    background-color: rgb(57, 54, 54);
+    font-size: 100%;
+    position: absolute;
+    left: 12%;
+    top: 90%;
+    border-radius: 30px;
+    border: none;
+    padding-left: -40px;
+    padding-right: 50%;
+}
+
+
+.body9 i{
+    color: rgb(161, 151, 151);
+    position: absolute;
+    top: 92%;
+    left: 70%;
+    font-size: 180%;
+
+}
+
+
+.body10 i{
+    color: rgb(161, 151, 151);
+    position: absolute;
+    top: 92.2%;
+    left: 80%;
+    font-size: 170%;
+
+}
